@@ -1,5 +1,3 @@
-package charactersTesting;
-
 import characters.Character;
 import characters.Hobbit;
 import org.junit.jupiter.api.BeforeEach;

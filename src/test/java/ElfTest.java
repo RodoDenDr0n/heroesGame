@@ -1,5 +1,3 @@
-package charactersTesting;
-
 import characters.Character;
 import characters.Elf;
 import characters.Hobbit;
