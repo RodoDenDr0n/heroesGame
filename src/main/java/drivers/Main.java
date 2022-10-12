@@ -7,11 +7,10 @@ public class Main {
         GameManager gameManager = new GameManager();
         CharacterFactory characterFactory = new CharacterFactory();
         Character character1; Character character2;
-        while (true) {
-            character1 = characterFactory.createCharacter();
-            character2 = characterFactory.createCharacter();
-            gameManager.fight(character1, character2);
-        }
+
+        character1 = characterFactory.createCharacter();
+        character2 = characterFactory.createCharacter();
+        gameManager.fight(character1, character2);
     }
 }
 
